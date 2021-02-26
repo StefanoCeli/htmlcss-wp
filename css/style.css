@@ -42,8 +42,8 @@ nav li a{
 }
 
 nav li a:hover{
-color: black;
-text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 
 .banner{
@@ -56,8 +56,11 @@ text-decoration: underline;
 .banner .banner-text{
   width: 55%;
   height: 100%;
-  color: white;
+  color: #fff;
   padding: 25% 3% 5%;
+}
+.banner .banner-text h2{
+  font-size: 30px;
 }
 
 .opacity{
@@ -77,6 +80,14 @@ main{
 
 main .title{
   margin-bottom: 20px;
+}
+
+main .title h1{
+  font-size: 40px;
+}
+
+main p{
+  color: gray;
 }
 
 .left-side, .right-side, .center{
@@ -114,14 +125,19 @@ main .right-side .image-right{
   background-position:center ;
 }
 main h3{
-  padding: 10px 0;
+  margin: 10px 0;
 }
 /* /MAIN */
 
 /* FOOTER */
 
 footer{
-  background-color: purple;
-  height: 100px;
+  padding: 25px 0;
+  text-align: center;
+}
+footer h3::after{
+  content: '\2764';
+  color: red;
+  font-size: 25px;
 }
 /* /FOOTER */
